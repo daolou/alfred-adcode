@@ -24,7 +24,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pnpm i --ignore-scripts --frozen-lockfile
+        pnpm i -P --ignore-scripts --frozen-lockfile
         pnpm run compile
         ls lib
         mkdir workflows
