@@ -9,12 +9,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '12.x'
+        cache: 'npm'
+    - name: Install dependencies
+      run: |
+        npm ci
+        npm run compile
     - uses: actions/checkout@v2
     - name: Build Alfred Workflow
       id: alfred_builder
       uses: mperezi/build-alfred-workflow@v1
       with:
-        workflow_dir: '.'
+        workflow_dir: 'lib'
         exclude_patterns: '.git/* .github/* .gitignore .eslintignore .prettierignore'
     - name: Create Release
       id: create_release
