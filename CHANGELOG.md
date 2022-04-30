@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+### [1.0.7](https://github.com/daolou/alfred-adcode/compare/v1.0.6...v1.0.7) (2022-04-30)
+
+
+### Bug Fixes | Bug 修复
+
+* 🐛 No such file or directory ([061be58](https://github.com/daolou/alfred-adcode/commit/061be5805c059c7238f7f56042e8809164675b83))
+
 ### [1.0.6](https://github.com/daolou/alfred-adcode/compare/v1.0.5...v1.0.6) (2022-04-30)
 
 
