@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+### [1.0.1](https://github.com/daolou/alfred-adcode/compare/v1.0.0...v1.0.1) (2022-04-30)
+
+
+### Chores | 其他更新(构建过程、辅助工具、库)
+
+* 🔧 fix actions ([4bcf0a3](https://github.com/daolou/alfred-adcode/commit/4bcf0a3d348e7cf1f63d5e26ed4b550811c0f87b))
+
 ## 1.0.0 (2022-04-30)
 
 
