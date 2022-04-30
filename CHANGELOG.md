@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+### [1.0.5](https://github.com/daolou/alfred-adcode/compare/v1.0.4...v1.0.5) (2022-04-30)
+
+
+### Chores | 其他更新(构建过程、辅助工具、库)
+
+* 🔧 pnpm i --ignore-scripts ([8cda074](https://github.com/daolou/alfred-adcode/commit/8cda074f80bff53d9d8111f5709970b5c9edda86))
+
 ### [1.0.4](https://github.com/daolou/alfred-adcode/compare/v1.0.3...v1.0.4) (2022-04-30)
 
 
