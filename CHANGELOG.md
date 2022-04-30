@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+### [1.0.4](https://github.com/daolou/alfred-adcode/compare/v1.0.3...v1.0.4) (2022-04-30)
+
+
+### Chores | 其他更新(构建过程、辅助工具、库)
+
+* 🔧 pnpm env ([743186a](https://github.com/daolou/alfred-adcode/commit/743186a7c1f9a7fb1d2e42b29a7a716b8abc9d4e))
+
 ### [1.0.3](https://github.com/daolou/alfred-adcode/compare/v1.0.2...v1.0.3) (2022-04-30)
 
 
