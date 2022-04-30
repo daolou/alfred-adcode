@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+### [1.0.8](https://github.com/daolou/alfred-adcode/compare/v1.0.7...v1.0.8) (2022-04-30)
+
+
+### Chores | 其他更新(构建过程、辅助工具、库)
+
+* 🔧 pnpm i -P to optimize size ([65feec6](https://github.com/daolou/alfred-adcode/commit/65feec67db3fd89e70547d2f84c99bef65b5ad03))
+
 ### [1.0.7](https://github.com/daolou/alfred-adcode/compare/v1.0.6...v1.0.7) (2022-04-30)
 
 
