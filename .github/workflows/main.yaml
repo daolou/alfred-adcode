@@ -10,25 +10,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: pnpm/action-setup@v2
+
+    - name: Use pnpm
+      uses: pnpm/action-setup@v2
       with:
         version: 6.10.0
+
     - name: Use Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '14'
         cache: 'pnpm'
+
     - name: Install dependencies
       run: |
         pnpm i --ignore-scripts --frozen-lockfile
         pnpm run compile
-    - uses: actions/checkout@v2
+        ls lib
+
     - name: Build Alfred Workflow
       id: alfred_builder
       uses: mperezi/build-alfred-workflow@v1
       with:
         workflow_dir: 'lib'
         exclude_patterns: '.git/* .github/* .gitignore .eslintignore .prettierignore'
+
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
@@ -39,6 +45,7 @@ jobs:
         release_name: ${{ github.ref }}
         draft: false
         prerelease: false
+
     - name: Upload Alfred Workflow
       uses: actions/upload-release-asset@v1
       env:
