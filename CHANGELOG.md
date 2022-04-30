@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+### [1.0.2](https://github.com/daolou/alfred-adcode/compare/v1.0.1...v1.0.2) (2022-04-30)
+
+
+### Chores | 其他更新(构建过程、辅助工具、库)
+
+* 🔧 optimize build size ([ce96061](https://github.com/daolou/alfred-adcode/commit/ce960610f2092226f21e6bb8bf9e6d0aa2048597))
+
 ### [1.0.1](https://github.com/daolou/alfred-adcode/compare/v1.0.0...v1.0.1) (2022-04-30)
 
 
