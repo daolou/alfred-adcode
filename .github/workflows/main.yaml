@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - id: alfred_builder
-      name: Build Alfred Workflow
+    - name: Build Alfred Workflow
+      id: alfred_builder
       uses: mperezi/build-alfred-workflow@v1
       with:
         workflow_dir: '.'
         exclude_patterns: '.git/* .github/* .gitignore .eslintignore .prettierignore'
-    - id: create_release
-      name: Create Release
+    - name: Create Release
+      id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
