@@ -20,7 +20,7 @@ jobs:
         cache: 'pnpm'
     - name: Install dependencies
       run: |
-        pnpm i --frozen-lockfile
+        pnpm i --ignore-scripts --frozen-lockfile
         pnpm run compile
     - uses: actions/checkout@v2
     - name: Build Alfred Workflow
