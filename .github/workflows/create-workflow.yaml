@@ -25,18 +25,13 @@ jobs:
     - name: Install dependencies
       run: |
         pnpm i -P --ignore-scripts --frozen-lockfile
-        pnpm run compile
-        ls lib
-        mkdir workflows
-        mv lib workflows/
-        mv node_modules workflows/
 
     - name: Build Alfred Workflow
       id: alfred_builder
       uses: mperezi/build-alfred-workflow@v1
       with:
-        workflow_dir: 'workflows'
-        exclude_patterns: '.git/* .github/* .gitignore .eslintignore .prettierignore'
+        workflow_dir: '.'
+        exclude_patterns: '.**/* *.cjs *.yaml'
 
     - name: Create Release
       id: create_release

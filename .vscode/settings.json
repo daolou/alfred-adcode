@@ -1,0 +1,13 @@
+{
+	"files.eol": "\n",
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"xo.enable": true,
+	"xo.format.enable": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "samverschueren.linter-xo"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "samverschueren.linter-xo"
+	}
+}
