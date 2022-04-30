@@ -125,7 +125,7 @@
 		<key>ADCODE_API_URL</key>
 		<string>https://restapi.amap.com/v3/config/district</string>
 		<key>ADCODE_KEY</key>
-		<string>1b404511d1bbd26384a5fa1bdc642e80</string>
+		<string></string>
 		<key>ADCODE_SUBDISTRICT</key>
 		<string>0</string>
 	</dict>
