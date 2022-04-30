@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+## [1.1.0](https://github.com/daolou/alfred-adcode/compare/v1.0.8...v1.1.0) (2022-04-30)
+
+
+### Features | 新功能
+
+* ✨ optimize Drastically reduced size ([587de2d](https://github.com/daolou/alfred-adcode/commit/587de2dd27699e44e3186359a448c26239f00b7e))
+
 ### [1.0.8](https://github.com/daolou/alfred-adcode/compare/v1.0.7...v1.0.8) (2022-04-30)
 
 
