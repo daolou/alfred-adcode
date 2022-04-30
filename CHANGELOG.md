@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+### [1.0.3](https://github.com/daolou/alfred-adcode/compare/v1.0.2...v1.0.3) (2022-04-30)
+
+
+### Chores | 其他更新(构建过程、辅助工具、库)
+
+* 🔧 ci cache use pnpm ([58744f7](https://github.com/daolou/alfred-adcode/commit/58744f76b047f178259323ee325d7c3797eec857))
+
 ### [1.0.2](https://github.com/daolou/alfred-adcode/compare/v1.0.1...v1.0.2) (2022-04-30)
 
 
