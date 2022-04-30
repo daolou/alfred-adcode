@@ -1,9 +1,10 @@
 {
   "name": "alfred-adcode",
   "version": "1.0.8",
-  "description": "quick get adcode",
+  "description": "根据区域码或中文名获取行政信息",
   "keywords": [
     "alfred",
+    "workflow",
     "adcode"
   ],
   "homepage": "https://github.com/daolou/alfred-adcode#readme",
@@ -17,20 +18,16 @@
   "license": "MIT",
   "author": "daolou <jiangzhiguo2010@qq.com>",
   "type": "module",
-  "main": "lib/index.js",
+  "main": "index.js",
   "files": [
-    "lib",
-    "scripts",
+    "index.js",
     "icon.png",
     "info.plist"
   ],
   "scripts": {
-    "compile": "tsc",
-    "eslint:fix": "eslint --fix --ext .ts ./src/",
     "postinstall": "alfy-init",
+    "lint": "xo --fix index.js src/**/*.js",
     "prepare": "husky install",
-    "prettier:fix": "prettier --write -l \"./src/**/*\"",
-    "publish": "./scripts/publish.sh",
     "release": "standard-version",
     "preuninstall": "alfy-cleanup"
   },
@@ -38,30 +35,22 @@
     "package.json": [
       "sort-package-json"
     ],
-    "src/**/*.{js,ts,md,json}": [
-      "eslint --fix",
-      "prettier --write"
+    "**/*.js": [
+      "xo --fix"
     ]
   },
   "dependencies": {
-    "alfy": "^1.0.0",
-    "tslib": "^2.4.0"
+    "alfy": "^1.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
-    "@types/node": "^16.11.2",
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "@typescript-eslint/parser": "^5.1.0",
     "devmoji": "^2.3.0",
-    "eslint": "^8.14.0",
-    "eslint-config-alloy": "^4.5.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
-    "prettier": "^2.6.2",
     "sort-package-json": "^1.55.0",
     "standard-version": "^9.3.2",
-    "typescript": "^4.6.4"
+    "xo": "^0.48.0"
   },
   "engines": {
     "node": ">=14"
