@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+## [1.2.0](https://github.com/daolou/alfred-adcode/compare/v1.1.0...v1.2.0) (2022-05-01)
+
+
+### Features | 新功能
+
+* ✨ exclude some file ([cc628e3](https://github.com/daolou/alfred-adcode/commit/cc628e3897ac4ebd471fdc1e606d077accdfeac3))
+
 ## [1.1.0](https://github.com/daolou/alfred-adcode/compare/v1.0.8...v1.1.0) (2022-04-30)
 
 
