@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+### [1.2.2](https://github.com/daolou/alfred-adcode/compare/v1.2.1...v1.2.2) (2022-05-05)
+
+
+### Chores | 其他更新(构建过程、辅助工具、库)
+
+* keep Symbolic link ([b12d7cc](https://github.com/daolou/alfred-adcode/commit/b12d7ccdd42fea12f316663f9879317e1a4a3291))
+
 ### [1.2.1](https://github.com/daolou/alfred-adcode/compare/v1.2.0...v1.2.1) (2022-05-05)
 
 
