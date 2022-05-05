@@ -2,7 +2,7 @@
 
 > 快速查询中国境内，行政区域（依赖 [高德开放平台](https://lbs.amap.com/api/webservice/guide/api/district)）
 
-![alfred-adcode](alfred-adcode.gif)
+![alfred-adcode](./docs/assets/alfred-adcode.gif)
 
 可以得到：
 
@@ -30,7 +30,7 @@ $ npm install --global alfred-adcode
 
 ## 配置
 
-打开配置，如图：![alfred-adcode-env](alfred-adcode-env.png) 在环境变量 ADCODE_KEY，填入你自己申请的 key（需要预先申请，请看[申请 key](https://lbs.amap.com/dev/key)）
+打开配置，如图：![alfred-adcode-env](./docs/assets/alfred-adcode-env.png) 在环境变量 ADCODE_KEY，填入你自己申请的 key（需要预先申请，请看[申请 key](https://lbs.amap.com/dev/key)）
 
 ## 使用
 
