@@ -14,7 +14,7 @@ jobs:
       - name: Use pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 6.10.0
+          version: 7.0.0
 
       - name: Use Node.js
         uses: actions/setup-node@v3
@@ -24,13 +24,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pnpm i -P --ignore-scripts --frozen-lockfile
-          rm -rf ./node_modules/alfy
-          ln -s ./node_modules/alfy@1.0.0/node_modules/alfy ./alfy
+          pnpm i -P --ignore-scripts --frozen-lockfile --reporter=silent
 
       - name: Build Alfred Workflow
         id: alfred_builder
-        uses: mperezi/build-alfred-workflow@v1
+        uses: daolou/build-alfred-workflow2@v1.0.1
         with:
           workflow_dir: "."
           exclude_patterns: ".* *.cjs *.yaml docs/* CHANGELOG.md"
