@@ -1,6 +1,13 @@
 # 更新历史 
 
 
+### [1.2.1](https://github.com/daolou/alfred-adcode/compare/v1.2.0...v1.2.1) (2022-05-05)
+
+
+### Chores | 其他更新(构建过程、辅助工具、库)
+
+* build alfredworkflow ([174f612](https://github.com/daolou/alfred-adcode/commit/174f612be81a73a7b5183e070e639b4e7913b3ab))
+
 ## [1.2.0](https://github.com/daolou/alfred-adcode/compare/v1.1.0...v1.2.0) (2022-05-01)
 
 
