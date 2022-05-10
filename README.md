@@ -1,4 +1,4 @@
-# alfred-adcode ![workflow](https://github.com/daolou/alfred-adcode/actions/workflows/create-workflow.yaml/badge.svg?event=push)
+# alfred-adcode
 
 [![build](https://github.com/daolou/alfred-adcode/workflows/Create%20Alfred%20Workflow/badge.svg)](https://github.com/daolou/alfred-adcode/actions?query=workflow%3ACreate%20Alfred%20Workflow)
 
