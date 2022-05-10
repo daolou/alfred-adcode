@@ -25,6 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           pnpm i -P --ignore-scripts --frozen-lockfile --reporter=silent
+          pnpm prune
 
       - name: Build Alfred Workflow
         id: alfred_builder

@@ -1,4 +1,6 @@
-# alfred-adcode ![workflow](https://github.com/daolou/alfred-adcode/actions/workflows/create-workflow.yaml/badge.svg?event=push)
+# alfred-adcode
+
+[![build](https://github.com/daolou/alfred-adcode/workflows/Create%20Alfred%20Workflow/badge.svg)](https://github.com/daolou/alfred-adcode/actions?query=workflow%3ACreate%20Alfred%20Workflow)
 
 > 快速查询中国境内，行政区域（依赖 [高德开放平台](https://lbs.amap.com/api/webservice/guide/api/district)）
 
