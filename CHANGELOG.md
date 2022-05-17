@@ -1,5 +1,22 @@
-# 更新历史 
+# Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## 1.3.0 (2022-05-17)
+
+
+### Features
+
+* ✨ exclude some file ([faf8ba3](https://github.com/daolou/alfred-adcode/commit/faf8ba31a8ee780922571bc234a93f461c6d96ea))
+* ✨ optimize Drastically reduced size ([e4ef55b](https://github.com/daolou/alfred-adcode/commit/e4ef55b8f39442105380380fc21ba74592bc01bb))
+* ✨ optimize Drastically reduced size ([3500e14](https://github.com/daolou/alfred-adcode/commit/3500e14c2f047b0bcbea100e466016c80b692184))
+
+
+### Bug Fixes
+
+* 🐛 ERR_MODULE_NOT_FOUND: node esm require extension .js and use cjs ([ca0d255](https://github.com/daolou/alfred-adcode/commit/ca0d255252051c20c218ae713c674bfa5c5fc93a))
+* 🐛 ERR_MODULE_NOT_FOUND: node esm require extension .js and use cjs ([0010536](https://github.com/daolou/alfred-adcode/commit/00105369184158f7d3157563710600f1b6562530))
+* 🐛 No such file or directory ([ea791f2](https://github.com/daolou/alfred-adcode/commit/ea791f278eba72d4a4a2343985ae6404e5c7457a))
 
 ### [1.2.2](https://github.com/daolou/alfred-adcode/compare/v1.2.1...v1.2.2) (2022-05-05)
 
