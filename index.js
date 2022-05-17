@@ -2,10 +2,10 @@
  * @Author: zhiguo.jzg
  * @Date: 2022-04-01 01:48:42
  * @Description: TODO: Description of file, its uses and information
- * @LastEditTime: 2022-05-01 06:58:05
+ * @LastEditTime: 2022-05-17 15:29:29
  * @LastEditors: zhiguo.jzg
  */
-import alfy from 'alfy';
+import aw from '@jsany/aw';
 
 const LIST_KEYS = [
 	{
@@ -49,16 +49,16 @@ const LEVEL_MAP = {
 const getConfig = () => {
 	return {
 		url:
-			process.env.ADCODE_API_URL ||
+			aw.getEnv('ADCODE_API_URL') ||
 			'https://restapi.amap.com/v3/config/district',
-		key: process.env.ADCODE_KEY,
-		subdistrict: process.env.ADCODE_SUBDISTRICT || 0,
+		key: aw.getEnv('ADCODE_KEY'),
+		subdistrict: aw.getEnv('ADCODE_SUBDISTRICT') || 0,
 	};
 };
 
 const adcode = async () => {
 	try {
-		const keywords = alfy.input;
+		const keywords = aw.input;
 		const {key, subdistrict, url} = getConfig();
 
 		if (!key) {
@@ -66,7 +66,7 @@ const adcode = async () => {
 		}
 
 		const query = `?subdistrict=${subdistrict}&key=${key}&keywords=${keywords}`;
-		const data = await alfy.fetch(url + query);
+		const {data} = await aw.fetch.get(url + query);
 		if (data.status !== '1') {
 			throw new Error(data.info);
 		}
@@ -86,9 +86,9 @@ const adcode = async () => {
 				valid: true,
 			};
 		});
-		alfy.output(items);
+		aw.output(items);
 	} catch (error) {
-		alfy.error(error);
+		aw.error(error);
 	}
 };
 

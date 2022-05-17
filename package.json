@@ -25,11 +25,9 @@
     "info.plist"
   ],
   "scripts": {
-    "postinstall": "alfy-init",
     "lint": "xo --fix index.js src/**/*.js",
     "prepare": "husky install",
-    "release": "standard-version",
-    "preuninstall": "alfy-cleanup"
+    "release": "standard-version"
   },
   "lint-staged": {
     "package.json": [
@@ -40,7 +38,7 @@
     ]
   },
   "dependencies": {
-    "alfy": "^1.0.0"
+    "@jsany/aw": "^1.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
@@ -51,12 +49,5 @@
     "sort-package-json": "^1.55.0",
     "standard-version": "^9.3.2",
     "xo": "^0.48.0"
-  },
-  "engines": {
-    "node": ">=14"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
   }
 }
