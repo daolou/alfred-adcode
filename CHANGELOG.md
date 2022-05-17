@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/daolou/alfred-adcode/compare/v1.3.0...v1.3.1) (2022-05-17)
+
+
+### Bug Fixes
+
+* 🐛 txiki not support import node_modules resolve ([76b6c15](https://github.com/daolou/alfred-adcode/commit/76b6c1590b1a7ec8e3c3e4cdf5d9f9084656307f))
+
 ## 1.3.0 (2022-05-17)
 
 
