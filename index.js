@@ -2,10 +2,10 @@
  * @Author: zhiguo.jzg
  * @Date: 2022-04-01 01:48:42
  * @Description: TODO: Description of file, its uses and information
- * @LastEditTime: 2022-05-17 15:29:29
+ * @LastEditTime: 2022-05-18 00:54:36
  * @LastEditors: zhiguo.jzg
  */
-import aw from '@jsany/aw';
+import aw from './node_modules/@jsany/aw/lib/index.js';
 
 const LIST_KEYS = [
 	{
