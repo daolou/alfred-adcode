@@ -19,14 +19,6 @@
 
 _Requires [Node.js](https://nodejs.org) 14+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/)._
 
-方式一:
-
-```
-$ npm install --global alfred-adcode
-```
-
-方式二:
-
 1. [下载最新 workflow](https://github.com/daolou/alfred-adcode/releases/latest)
 2. 双击 .alfredworkflow 文件即可进行安装
 
